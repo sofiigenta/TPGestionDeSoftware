@@ -6,10 +6,12 @@ contVendedor = 0
 acumuladorDia = 0
 
 v = int (input ("Ingesar 1 para registrar un vendedor o 0 para terminar \n"))
-ant = float(input("Ingrese el sueldo que se venia persibiendo \n"))
+while v ==1:
+    ant = float(input("Ingrese el sueldo que se venia persibiendo \n"))
     aumento = ant*0.25
     au2 = ant+aumento
     acumuladorDia = acumuladorDia + au2
     contVendedor = contVendedor + 1
     print ("El operario venia ganando" ,ant,"y pasara a ganar" ,au2)
-    
+    v = int (input ("Ingesar 1 para registrar un vendedor o 0 para terminar \n"))
+print("La cantidad de vendedores es {} y el total vendido es {}".format(contVendedor, acumuladorDia)) 
