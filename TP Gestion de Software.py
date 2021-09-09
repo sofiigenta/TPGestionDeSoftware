@@ -2,6 +2,7 @@
 #Se desea conocer cuánto ganará cada uno.
 #Además será necesario mostrar lo que la empresa deberá pagar a todos los vendedores en concepto de salario y con cuántos vendedores cuenta.
 
-
+contVendedor = 0
+acumuladorDia = 0
 
 
